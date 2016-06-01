@@ -1,7 +1,7 @@
 import json
 import datetime
 
-PRODUCT_OF_INTEREST_URL = "https://www.kickstarter.com/projects/ysnet/shenmue-3/description"
+PRODUCT_OF_INTEREST_URL = "https://www.kickstarter.com/projects/mightyno9/mighty-no-9/description"
 
 product_of_interest = {}
 product_comparables = []

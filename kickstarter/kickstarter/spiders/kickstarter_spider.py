@@ -8,7 +8,7 @@ class KickstarterSpider(scrapy.Spider):
     name = "kickstarter"
     allowed_domains = ["kickstarter.com"]
     
-    reference_product = "https://www.kickstarter.com/projects/ysnet/shenmue-3/description"
+    reference_product = "https://www.kickstarter.com/projects/mightyno9/mighty-no-9/description"
     
     start_urls = [
         # product of interest
