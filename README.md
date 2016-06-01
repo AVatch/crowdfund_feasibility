@@ -51,3 +51,8 @@ $ source env/bin/activate
 Looking at [Shenmue 3](https://www.kickstarter.com/projects/ysnet/shenmue-3) we see that the studio has given itself 900 days to complete the project while other projects have been completed in average of 630 or so days. This means that the studio is being overly cautious with the project or is aware that it will take a longer time than usual. 
 
 ![shenmue 3 results](https://raw.githubusercontent.com/AVatch/crowdfund_feasibility/master/kickstarter/sample_shenmue3.png)
+
+
+On the other hand, looking at [Mighty No 9]() we see that the estimated delivery time fell short of what the average projects have taken. Even with the rough and big assumption taken in implementing this crawler, we see that the studio underestimated the time it would take to deliever the project which lines up with the current state of the project and its multiple delays. 
+
+![mighty no 9 results](https://raw.githubusercontent.com/AVatch/crowdfund_feasibility/master/kickstarter/sample_mightyno9.png)
