@@ -45,3 +45,9 @@ $ source env/bin/activate
 ```
 (env)$ python analyze.py
 ```
+
+### Sample Output
+
+Looking at [Shenmue 3](https://www.kickstarter.com/projects/ysnet/shenmue-3)
+
+
