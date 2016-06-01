@@ -63,3 +63,5 @@ Some of these were covered in the Motivation section, but here we go in further 
 Another optimization is to take into account other details such as funding goals, number of backers, studio reputation, studio size, and press coverage and interest. Also whether or not the product is part of an established franchise or a new IP can all have significant changes to the delivery times. 
 
 Looking at whether or not the other comperables met their delivery times can also perhaps prove useful
+
+The usual error handling, unit testing, and generalization all projects need
