@@ -46,6 +46,13 @@ $ source env/bin/activate
 (env)$ python analyze.py
 ```
 
+### Configure Code to Look at other examples
+You will want to modify ```line 11``` in ```kickstarter_spiders.py``` to point to the appropriate project's Kickstarter Description page. This should also be mirrored in ```line 4``` in ```analyze.py``` as well.
+
+You can change the array of comperables which are ```start_urls``` in ```kickstarter_spiders.py```
+
+Also note that the ```crawl.sh``` at the moment just appends to a file called ```projects.json``` so the json will be inapropriate if you run ```crawl.sh``` multiple times back to back. The file is here only as a convinience.
+
 ### Sample Output
 
 Looking at [Shenmue 3](https://www.kickstarter.com/projects/ysnet/shenmue-3) we see that the studio has given itself 900 days to complete the project while other projects have been completed in average of 630 or so days. This means that the studio is being overly cautious with the project or is aware that it will take a longer time than usual. 
