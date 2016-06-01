@@ -56,3 +56,10 @@ Looking at [Shenmue 3](https://www.kickstarter.com/projects/ysnet/shenmue-3) we 
 On the other hand, looking at [Mighty No 9]() we see that the estimated delivery time fell short of what the average projects have taken. Even with the rough and big assumption taken in implementing this crawler, we see that the studio underestimated the time it would take to deliever the project which lines up with the current state of the project and its multiple delays. 
 
 ![mighty no 9 results](https://raw.githubusercontent.com/AVatch/crowdfund_feasibility/master/kickstarter/sample_mightyno9.png)
+
+## Next Steps
+Some of these were covered in the Motivation section, but here we go in further details. The most important change is to properly pick a representative sampling of other crowdsourced products which are related to the product of interest. In this implementation I simply picked released games which have been crowdfunded through kickstarter. 
+
+Another optimization is to take into account other details such as funding goals, number of backers, studio reputation, studio size, and press coverage and interest. Also whether or not the product is part of an established franchise or a new IP can all have significant changes to the delivery times. 
+
+Looking at whether or not the other comperables met their delivery times can also perhaps prove useful
