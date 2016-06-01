@@ -48,6 +48,6 @@ $ source env/bin/activate
 
 ### Sample Output
 
-Looking at [Shenmue 3](https://www.kickstarter.com/projects/ysnet/shenmue-3)
+Looking at [Shenmue 3](https://www.kickstarter.com/projects/ysnet/shenmue-3) we see that the studio has given itself 900 days to complete the project while other projects have been completed in average of 630 or so days. This means that the studio is being overly cautious with the project or is aware that it will take a longer time than usual. 
 
-
+![shenmue 3 results](https://raw.githubusercontent.com/AVatch/crowdfund_feasibility/master/kickstarter/sample_shenmue3.png)
