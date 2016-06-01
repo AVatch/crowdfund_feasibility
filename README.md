@@ -69,7 +69,7 @@ Extending the data sources to include more than just GiantBomb, i.e. Twitter, et
 The usual error handling, unit testing, and generalization all projects need
 
 
-## Interest Challenges That Were Encountered
+## Interesting Challenges That Were Encountered
 Web crawling always tends to produce interesting edge cases and challenges due to the nature of the task.
 
 For starters, KickStarter has a slightly different page structure for completed campaings versus undergoing campaigns. In this first pass, I am only looking at completed campaigns. 
