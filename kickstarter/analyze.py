@@ -1,7 +1,7 @@
 import json
 import datetime
 
-PRODUCT_OF_INTEREST_URL = "https://www.kickstarter.com/projects/902505202/castle-story/description"
+PRODUCT_OF_INTEREST_URL = "https://www.kickstarter.com/projects/ysnet/shenmue-3/description"
 
 product_of_interest = {}
 product_comparables = []
@@ -20,7 +20,7 @@ def calculate_duration(d1, d2):
     return d2 - d1
     
 
-def print_products( ):
+def print_products( product_of_interest, product_comparables ):
     """Prints the products for debugging
     """
     print "Announcement\t\t\tEst Release\t\tAct Release\t\tTitle"
@@ -71,8 +71,7 @@ if __name__=='__main__':
     with open('projects.json') as data_file:
         data = json.load(data_file)
     product_of_interest, product_comparables = organize_data(data)
-    
-    print_products()
+    print_products( product_of_interest, product_comparables )
     
     print "Comperables Average Time:\t%s" % str(calculate_average_project_time( product_comparables ))
     print "Product of Interest Time:\t%s" % str(calculate_proposed_time( product_of_interest )) 
